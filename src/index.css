@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Arabic", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#F8F9FA] text-slate-900;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply text-indigo-600 font-bold mt-4 mb-2;
+}
+
+.prose p {
+  @apply mb-2 leading-relaxed;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4;
+}
+
+.prose li {
+  @apply mb-1;
+}
